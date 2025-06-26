@@ -11,21 +11,42 @@ export default defineConfig({
 			editLink: {
 				baseUrl: 'https://github.com/Innkeeping/Hyperfy.how/edit/main/',
 			},
-			title: 'hyperfy.how',
+			title: 'docs.hyperfy.xyz',
 			logo: {
-        src: './src/assets/hyperfy-logo.svg',
-      },
+				src: './src/assets/hyperfy-logo.svg',
+			},
 			favicon: '/assets/favicon.svg',
 			customCss: [
-        './src/styles/custom.css',
+				'./src/styles/custom.css',
 			],
-			social: {
-				github: 'https://github.com/hyperfy-xyz',
-				discord: 'https://discord.gg/SzPjsvk5',
-				'x.com': 'https://x.com/hyperfy_io',
-				farcaster: 'https://warpcast.com/~/channel/hyperfy',
-				youtube: 'https://www.youtube.com/@hyperfy_xyz',
-			},
+			social: [
+				{
+					icon: "github",
+					label: "GitHub",
+					href: "https://github.com/hyperfy-xyz"
+				},
+				{
+					icon: "discord",
+					label: "Discord",
+					href: "https://discord.gg/SzPjsvk5"
+				},
+				{
+					icon: "twitter",
+					label: "X",
+					href: "https://x.com/hyperfy_io"
+				},
+				{
+					icon: "farcaster",
+					label: "Farcaster",
+					href: "https://warpcast.com/~/channel/hyperfy"
+				},
+				{
+					icon: "youtube",
+					label: "YouTube",
+					href: "https://www.youtube.com/@hyperfy_xyz"
+				}
+			],
+
 			sidebar: [
 				{
 					label: 'Welcome',
@@ -40,12 +61,12 @@ export default defineConfig({
 					label: 'Docs',
 					collapsed: true,
 					items: [
-								{ label: 'Getting Started', slug: 'docs/getting-started' },
-								{ label: 'Models', slug: 'docs/models' },
-								{ label: 'Commands', slug: 'docs/commands' },
-								{ label: 'Scripts', slug: 'docs/scripts' },
-								{ label: '.hyp Format', slug: 'docs/hyp-format' },
-								{ label: 'Blender Scripts', slug: 'docs/blender-scripts' },
+						{ label: 'Getting Started', slug: 'docs/getting-started' },
+						{ label: 'Models', slug: 'docs/models' },
+						{ label: 'Commands', slug: 'docs/commands' },
+						{ label: 'Scripts', slug: 'docs/scripts' },
+						{ label: '.hyp Format', slug: 'docs/hyp-format' },
+						{ label: 'Blender Scripts', slug: 'docs/blender-scripts' },
 
 						{
 							label: 'ref',
@@ -118,7 +139,7 @@ export default defineConfig({
 
 					],
 				},
-				
+
 				{
 					label: 'Guides/Resources',
 					items: [
@@ -135,7 +156,7 @@ export default defineConfig({
 							label: 'Coding',
 							collapsed: true,
 							items: [
-								
+
 
 								{ label: 'Coding Resources', slug: 'guides/coding' },
 								{ label: 'Coding with AI', slug: 'guides/coding/ai' },
@@ -202,12 +223,12 @@ export default defineConfig({
 						{
 							label: 'Misc',
 							collapsed: true,
-						   items: [
-							   { label: 'History of Hyperfy', slug: 'welcome/hyperfy-history' },
-							   { label: 'Community HackMDs', slug: 'guides/hackmd' },
-							   { label: 'Various Articles', slug: 'guides/articles' },
-						   ]
-					   },
+							items: [
+								{ label: 'History of Hyperfy', slug: 'welcome/hyperfy-history' },
+								{ label: 'Community HackMDs', slug: 'guides/hackmd' },
+								{ label: 'Various Articles', slug: 'guides/articles' },
+							]
+						},
 
 					],
 				},

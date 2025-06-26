@@ -32,3 +32,12 @@ ul li {
 .token-image {
   width: 64px;
 }
+
+
+header .sl-logo {
+  cursor: pointer;
+}
+
+header .sl-logo img {
+  pointer-events: auto;
+}

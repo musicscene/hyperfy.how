@@ -2,7 +2,7 @@ New updates
 
 *You can click 'Edit Page' on the bottom of any page to go directly to it in repo and prompt you to fork*
 
-Hyperfy.how is a living community resource for [Hyperfy v2.](https://github.com/hyperfy-xyz/hyperfy)
+Docs.Hyperfy.xyz is a living community resource for [Hyperfy v2.](https://github.com/hyperfy-xyz/hyperfy)
 
 It will continue to evolve as Hyperfy v2 progresses. (with your help! 🚀)
 
